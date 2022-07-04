@@ -1,0 +1,92 @@
+body {
+    color: black;
+}
+
+/*barra de navegacion*/
+
+nav {
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.nav_logo {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.title {
+    color:black;
+    font-size: 2rem;
+    margin: 4rem 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    min-width: 40%;
+}
+
+.form__label {
+    font-size:  1.2rem;
+    margin: 1rem 0;
+}
+
+.form__input {
+    padding: 0.4rem 1rem;
+    margin: 0.2rem 0;
+    border: 0.8px solid black;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 0.8rem 0;
+}
+
+.form__checkbox {
+    appearance: none;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-radius: 6px;
+    position:relative;
+    margin-left: 0.08rem;
+}
+
+.form__btn {
+    width: 300px;
+    border: none;
+    border-radius: 35px;
+    padding: 0.7rem 2rem;
+    margin: 2rem auto;
+    cursor: pointer;
+}
